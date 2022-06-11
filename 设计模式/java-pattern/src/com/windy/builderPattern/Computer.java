@@ -5,12 +5,6 @@ package com.windy.builderPattern;
  * @version 1.0
  * @date 2022/6/11 20:53
  * <p>
- * 将原本返回 void 的 set 方法, 构造成返回 builder 的方式, 这样可以使用链式调用
- * 使用场景：
- * 当一个类：
- * (1) 构造函数超过4个;
- * (2) 参数可选
- * 考虑使用建造者模式
  */
 public class Computer {
     private final String cpu;       //  required
